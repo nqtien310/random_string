@@ -24,7 +24,7 @@ module RandomString
 				:CCodes       => ['84', '1', '39'],
 				:ISOCCodes    => ['US', 'USA', 'VN', 'VNM'],
 				:Services     => ['yahoo', 'google', 'facebook', 'amazone', 'youtube', 'paypal', 'alchemy'],
-				:Marks        => ['excellent', 'good', 'bad']
+				:Marks        => ['excellent', 'good', 'bad']				
 			}
 		end
 	end
