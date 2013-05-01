@@ -1,0 +1,29 @@
+= RandomString
+
+Ruby library which generates strings which match a regular expression
+
+== Examples :  
+  RandomString.generate(/[a-z]+@[a-z]+\.[a-z]+/)
+  => abcd@gmail.com
+
+== Installation
+  gem install 'random_string'
+
+or add to Gemfile:
+  
+  gem 'random_string'
+  
+== Usage
+  RandomString.generate(/[a-z]+@[a-z]+\.[a-z]+/)
+  => abcd@gmail.com
+
+
+
+
+== Contributing
+
+The random_string/sample_string/data.rb stores the sample data which are used to match again the Regex, this will be updated continously, please feel free update it by adding more sample data and make pull request, I really appreciate your contributions
+
+== Copyright
+
+Copyright (c) 2013 nqtien310@gmail.com.

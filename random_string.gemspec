@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RandomString::VERSION
   spec.authors       = ["Tien Nguyen"]
   spec.email         = ["nqtien310@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Generate random strings which match a Regular expression}
+  spec.summary       = %q{Generate random strings which match a Regular expression}
   spec.homepage      = ""
   spec.license       = "MIT"
 
