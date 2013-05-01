@@ -1,5 +1,6 @@
 require "random_string/version"
+require "random_string/main"
 
 module RandomString
-  # Your code goes here...
+	extend Main
 end
