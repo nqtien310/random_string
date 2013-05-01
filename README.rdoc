@@ -1,5 +1,6 @@
 = RandomString
 {<img src="https://badge.fury.io/rb/random_string.png" alt="Gem Version" />}[http://badge.fury.io/rb/random_string]
+{<img src="https://travis-ci.org/nqtien310/random_string.png?branch=master" alt="Build Status" />}[https://travis-ci.org/nqtien310/random_string]
 
 Ruby library which generates strings which match a regular expression
 
