@@ -6,7 +6,7 @@ module RandomString
 		
 		def generate(pattern)
 			matched_strings = []
-			unmatched_strings = []			
+			unmatched_strings = []
 			sample_strings.each do |sample_string|
 				break if matched_strings.size == ResultCount && unmatched_strings.size == ResultCount
 
@@ -18,8 +18,8 @@ module RandomString
 			end
 
 			{
-				matched_strings:   matched_strings,
-				unmatched_strings: unmatched_strings
+				:matched_strings   => matched_strings,
+				:unmatched_strings => unmatched_strings
 			}
 		end
 

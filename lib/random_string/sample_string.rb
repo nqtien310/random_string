@@ -45,7 +45,7 @@ module RandomString
 			end
 
 			def floats_data
-				(0...1).step(0.01).to_a.map.each {|f| f.round(2).to_s}
+				(0...1).step(0.01).to_a.map { |f| f.to_s }
 			end
 
 			def stored_strings

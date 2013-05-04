@@ -17,8 +17,8 @@ describe "RandomString::Main" do
 			}			
 			let(:expected) do
 				{
-					matched_strings: strings,
-					unmatched_strings: []
+					:matched_strings => strings,
+					:unmatched_strings => []
 				}
 			end
 
@@ -36,8 +36,8 @@ describe "RandomString::Main" do
 			}			
 			let(:expected) do
 				{
-					matched_strings: [],
-					unmatched_strings: strings
+					:matched_strings => [],
+					:unmatched_strings => strings
 				}
 			end
 
@@ -55,8 +55,8 @@ describe "RandomString::Main" do
 			}			
 			let(:expected) do
 				{
-					matched_strings: ['nqtien310@gmail.com'],
-					unmatched_strings: ['nqtien310']
+					:matched_strings => ['nqtien310@gmail.com'],
+					:unmatched_strings => ['nqtien310']
 				}
 			end
 
@@ -82,8 +82,8 @@ describe "RandomString::Main" do
 			}			
 			let(:expected) do
 				{
-					matched_strings: ['nqtien310@gmail.com', 'nqtien310@skype.com', 'nqtien310@hotmail.com'],
-					unmatched_strings: ['nqtien310', 'nqtien3101', 'nqtien3102'],
+					:matched_strings => ['nqtien310@gmail.com', 'nqtien310@skype.com', 'nqtien310@hotmail.com'],
+					:unmatched_strings => ['nqtien310', 'nqtien3101', 'nqtien3102'],
 				}
 			end
 
